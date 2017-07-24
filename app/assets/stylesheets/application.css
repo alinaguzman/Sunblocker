@@ -12,4 +12,6 @@
  *
  *= require_tree .
  *= require_self
+ *= require uikit.min
+ *= require uikit-rtl.min
  */

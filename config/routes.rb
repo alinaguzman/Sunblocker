@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   end
   root 'home#index'
 
+  get 'forecast' => 'forecast#view'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

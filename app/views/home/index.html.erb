@@ -3,9 +3,9 @@
 <%= link_to 'Login', new_user_session_path %>
 
 
-<%= form_tag('/forecast', method: 'get') do %>
+<%= form_tag('/forecast', method: 'get', enforce_utf8: false) do %>
   <%= label_tag(:zipcode) %>
   <%= text_field_tag(:zipcode) %>
-  <%= submit_tag('Search') %>
+  <%= submit_tag('Search', name: nil) %>
 <% end %>
 

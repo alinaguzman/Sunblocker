@@ -1,0 +1,12 @@
+<div uk-grid>
+  <div>
+    <ul class="uk-list">
+      <% @hourly_data.each do |hour_hash| %>
+        <li><%= hour_hash[:hour] %> - UV index <%= hour_hash[:uv_index] %></li>
+      <% end %>
+    </ul>
+  </div>
+  <div></div>
+</div>
+
+

@@ -12,5 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require uikit-icons.min
+//= require uikit.min
 //= require turbolinks
 //= require_tree .
