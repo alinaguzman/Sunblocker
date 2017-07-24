@@ -1,0 +1,11 @@
+
+<%= link_to 'Sign Up', new_user_registration_path %>  |
+<%= link_to 'Login', new_user_session_path %>
+
+
+<%= form_tag('/forecast', method: 'get') do %>
+  <%= label_tag(:zipcode) %>
+  <%= text_field_tag(:zipcode) %>
+  <%= submit_tag('Search') %>
+<% end %>
+
